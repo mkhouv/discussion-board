@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Codesmith Discussion Board</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+  <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Codesmith Discussion Board</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/mdb.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+  </head>
+  <body>
+ <header>
+
+        <!--Navbar-->
+        <nav class="navbar navbar-toggleable-md navbar-dark bg-primary">
+            <div class="container">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapseEx2" aria-controls="collapseEx2" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html">
+                    <strong>Codesmith Discussion Board</strong>
+                </a>
+                <div class="collapse navbar-collapse" id="collapseEx2">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link waves-effect waves-light" href="http://www.codesmith.io">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect waves-light" href="../index.html">Forums</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline waves-effect waves-light">
+                        <input class="form-control" type="text" placeholder="Search">
+                    </form>
+                    <!--<div style="background-color: #00C851; text-align: center; border-radius: 10px">
+                      <a class="navbar-brand" href="#" style="margin-left: 10px">
+                        <strong>Create a New Topic</strong>
+                      </a>
+                    </div>-->
+                    <a class="btn btn-success btn-rounded" href="../newthread.html" role="button">Create a New Topic</a>
+                </div>
+            </div>
+        </nav>
+        <!--/.Navbar-->
+
+    </header>
+
+    <div class="row">
+      <div class="col-md-8" id="thread" style="margin-left: 120px; margin-top: 20px"> </div>
+      <div class="container" style="margin-left: 120px; margin-top: 20px">
+        <form>
+          <div class="form-group">
+            <label>Enter your post below</label>
+            <input type="text" class="form-control" rows="3" id="threadField"></input>
+          </div>
+          <button type="submit" class="btn btn-primary" style="float: right" id="submit">Submit</button>
+        </form>
+      </div>
+      <div class="col-md-4"> </div>
+    </div>
+    <footer class="page-footer blue center-on-small-only">
+
+
+        <!--/.Footer Links-->
+
+        <!--Copyright-->
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                © 2017 Copyright: <a href="https://michaelkhouv.com"> Michael Khouv </a>
+
+            </div>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="../js/tether.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="../js/mdb.min.js"></script>
+    <script src="dist/thread.bundle.js"></script>
+  </body>
+</html>
